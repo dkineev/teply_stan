@@ -1,0 +1,93 @@
+body{
+padding: 0;
+margin: 0;
+font: arial 20px sans-serif;
+background-attachment: fixed;
+background-repeat:no-repeat;
+background:url("../images/bg.jpg");
+}
+
+
+h1, h2, h3, h4, h5, h6, p, hr {
+	padding:0;
+	margin: 0;
+}
+/* Тут все по шапке */
+
+#wrap-header { /* Это кстати работает ^_^ */
+width:100%;
+height:170px;
+background-repeat:no-repeat;
+/*background:url("../images/header.jpg"); /* На этапе разработки =) */
+}
+
+#header {
+/*background-color:#000;*/
+background:url("../images/header.jpg");
+color:#1a1a1a;
+width:1000px;
+height:170px;
+margin: 0 auto;
+}
+
+#header h1, h4 {
+padding: 0;
+margin: 0;
+}
+
+#header h4 {
+color:#FFF;
+}
+
+#header h1{
+font-size: 32px;
+color: #1A1A1A;
+}
+
+#header section {
+padding-top: 50px;
+}
+
+/* Тут все по wrapper`y */
+#wrapper{
+width: 1000px;
+margin: 0 auto;
+background-color:#fff;
+height:600px;
+}
+
+#menu ul, li, a {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/* Тут все по навигации и sidebar */
+
+/*#nav {
+width:1000px;
+height:50px;
+background-color:#000;
+}*/
+
+#sidebar {
+width:200px;
+background-color:#E5E5E5;
+float:right;
+}
+
+#sidebar h4, hr, input {
+padding: 0;
+margin: 0;
+}
+
+/* Тут все по Контенту */
+
+#content {
+width:800px;
+float:left;
+background-color:#fff;
+}
+
+/* Тут все по подвалу */
+

@@ -1,0 +1,55 @@
+body{
+padding: 0;
+margin: 0;
+font: arial 20px sans-serif;
+background:url("../images/bg.jpg");
+}
+
+/* Тут все по шапке */
+
+#wrap-header { /* Это кстати работает ^_^ */
+width:100%;
+height:200px;
+background:url("../images/header.jpg"); /* На этапе разработки =) */
+}
+
+#header {
+/*background-color:#000;*/
+color:#fff;
+width:1000px;
+height:200px;
+margin: 0 auto;
+}
+
+/* Тут все по wrapper`y */
+#wrapper{
+width: 1000px;
+margin: 0 auto;
+background-color:#fff;
+height:600px;
+}
+
+/* Тут все по навигации и sidebar */
+
+#nav {
+width:1000px;
+height:50px;
+background-color:#000;
+}
+
+#sidebar {
+width:150px;
+background-color:#fcdd76;
+float:right;
+}
+
+/* Тут все по Контенту */
+
+#content {
+width:850px;
+float:left;
+background-color:#fff;
+}
+
+/* Тут все по подвалу */
+
